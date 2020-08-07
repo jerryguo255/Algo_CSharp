@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0223_RectangleArea.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0836_RectangleOverlap", "Lib_0836_RectangleOverlap\Lib_0836_RectangleOverlap.csproj", "{F585E199-E19C-42CD-8246-493CF9CF7AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0836_RectangleOverlap.Tests", "Lib_0836_RectangleOverlap.Tests\Lib_0836_RectangleOverlap.Tests.csproj", "{DB71C378-F848-4C8E-9BA6-7BB6B1AF2D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0836_RectangleOverlap.Tests", "Lib_0836_RectangleOverlap.Tests\Lib_0836_RectangleOverlap.Tests.csproj", "{DB71C378-F848-4C8E-9BA6-7BB6B1AF2D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0367_ValidPerfectSquare", "Lib_0367_ValidPerfectSquare\Lib_0367_ValidPerfectSquare.csproj", "{5B55BA38-E4AC-4ED3-B178-31B4825FB782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0367_ValidPerfectSquare.Tests", "Lib_0367_ValidPerfectSquare.Tests\Lib_0367_ValidPerfectSquare.Tests.csproj", "{CE3BAED9-EEE4-4C7B-8376-295B4FC206DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{DB71C378-F848-4C8E-9BA6-7BB6B1AF2D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB71C378-F848-4C8E-9BA6-7BB6B1AF2D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB71C378-F848-4C8E-9BA6-7BB6B1AF2D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B55BA38-E4AC-4ED3-B178-31B4825FB782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B55BA38-E4AC-4ED3-B178-31B4825FB782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B55BA38-E4AC-4ED3-B178-31B4825FB782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B55BA38-E4AC-4ED3-B178-31B4825FB782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3BAED9-EEE4-4C7B-8376-295B4FC206DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3BAED9-EEE4-4C7B-8376-295B4FC206DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3BAED9-EEE4-4C7B-8376-295B4FC206DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3BAED9-EEE4-4C7B-8376-295B4FC206DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,10 +23,7 @@ namespace Lib_0223_RectangleArea.Tests
         [InlineData(-2, -2, 2, 2, -3, 1, -1, 3, 19)]// 6 左上相切 
         [InlineData(-2, -2, 2, 2, -4, -3, -1, 0, 23)]// 7 右下相切 
 
-
         [InlineData(-3, -3, 3, -1, -2, -2, 2, 2, 24)]// 7 右下相切 反向
-
-
         [InlineData(-2, -2, 2, 2, -3, -3, 3, -1, 24)]// 8 r2 bottom half contains r1 
         [InlineData(-2, -2, 2, 2, 1, -3, 3, 3, 24)]// 9 r2 right half contains r1 
         [InlineData(-2, -2, 2, 2,-3, 1, 3, 3, 24)]// 10 r2 top half contains r1 
@@ -50,6 +47,11 @@ namespace Lib_0223_RectangleArea.Tests
                                             rightTopXg, rightTopYh);
             Assert.Equal(expected, result);
         }
+
+
+
+
+        
 
 
         //[Theory]
