@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_0223_RectangleArea\Lib_0223_RectangleArea.csproj" />
+    <ProjectReference Include="..\Lib_0367_ValidPerfectSquare\Lib_0367_ValidPerfectSquare.csproj" />
   </ItemGroup>
 
 </Project>

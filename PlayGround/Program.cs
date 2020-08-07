@@ -1,21 +1,18 @@
 ﻿using System;
-using Lib_0223_RectangleArea;
+using Lib_0367_ValidPerfectSquare;
 namespace PlayGround
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var l0223 = new Lib_0223_RectangleArea.Lib_0223_RectangleArea();
+            var s = new Solution();
            // var result1 = l0223.ComputeTotalArea(-2, -2,
             //    2, 2, -3, 1, -1, 3);
 
-
-
-            var result2 = l0223.ComputeArea(-3,-3,5,0,-3,-3,3,3);
            
 
-            Console.WriteLine(result2);
+            Console.WriteLine(s.IsPerfectSquare(2000105819));
             //  var exceptedRectangle = new Rectangle(0, 0, 3, 2);
             Console.ReadLine();
         }   
