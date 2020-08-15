@@ -40,7 +40,7 @@ namespace Lib_0223_RectangleArea.Tests
                                                  int leftBottomXe, int leftBottomYf,
                                                  int rightTopXg, int rightTopYh, int expected)
         {
-            var l0223 = new Lib_0223_RectangleArea();
+            var l0223 = new Solution();
             var result = l0223.ComputeArea(leftBottomXa, leftBottomYb,
                                             rightTopXc, rightTopYd,
                                             leftBottomXe, leftBottomYf,

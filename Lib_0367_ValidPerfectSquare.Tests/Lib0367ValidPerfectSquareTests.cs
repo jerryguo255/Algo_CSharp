@@ -10,21 +10,15 @@ namespace Lib_0367_ValidPerfectSquare.Tests
 
 
         [Theory]
-        [InlineData(16)]
-        [InlineData(1)]
-        [InlineData(4)]
+        [InlineData(1), InlineData(4)]
         [InlineData(9)]
         [InlineData(16)]
         [InlineData(25)]
         [InlineData(36)]
         [InlineData(49)]
-
         [InlineData(64)]
-
         [InlineData(81)]
-
         [InlineData(100)]
-
         [InlineData(121)]
         [InlineData(144)]
         [InlineData(169)]
@@ -32,12 +26,6 @@ namespace Lib_0367_ValidPerfectSquare.Tests
         [InlineData(225)]
         [InlineData(30_261_001)]
         [InlineData(559_511_716)]
-
-
-
-
-
-
         public void IsPerfectSquareTest(int num)
         {
             Assert.True(_solution.IsPerfectSquare(num));

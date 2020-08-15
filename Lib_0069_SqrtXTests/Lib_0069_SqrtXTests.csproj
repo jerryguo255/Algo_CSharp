@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
+    <ProjectReference Include="..\Lib_0223_RectangleArea.Tests\Lib_0223_RectangleArea.Tests.csproj" />
   </ItemGroup>
 
 </Project>

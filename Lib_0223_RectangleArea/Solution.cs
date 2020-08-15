@@ -5,7 +5,7 @@ namespace Lib_0223_RectangleArea
     /// <summary>
     /// From LeetCode https://leetcode.com/problems/rectangle-area/
     /// </summary>
-    public class Lib_0223_RectangleArea
+    public class Solution
     {
         private bool isReverseRelationship = false;
 
