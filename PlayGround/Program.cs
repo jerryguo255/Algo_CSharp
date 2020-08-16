@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
-using Lib_0345_ReverseVowelsOfAString;
+using System.Linq;
+using Lib_0283_MoveZeroes;
 
 namespace PlayGround
 {
@@ -10,18 +10,19 @@ namespace PlayGround
         static void Main(string[] args)
         {
             var s = new Solution();
+            var nums1 = new[] { 1, 2, 0, 3, 0, 4, 0,5,6 };
 
-            Console.WriteLine(s.ReverseVowels("leetcode"));
-            
-           // Console.WriteLine(s.ReverseVowels("leetcode"));
+            var nums2 = new[] {0, 1, 0, 3, 12};
+            s.MoveZeroes(nums1);
+
+            foreach (var VARIABLE in nums1)
+            {
+                Console.Write(VARIABLE+",");
+            }
            
-
-
-
-            //  var exceptedRectangle = new Rectangle(0, 0, 3, 2);
             Console.ReadLine();
-        }   
-       
+        }
 
+       
     }
 }

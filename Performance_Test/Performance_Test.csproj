@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_0283_MoveZeroes\Lib_0283_MoveZeroes.csproj" />
+    <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
   </ItemGroup>
 
 </Project>
