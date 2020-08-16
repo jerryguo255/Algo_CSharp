@@ -17,6 +17,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
     <ProjectReference Include="..\Lib_0223_RectangleArea\Lib_0223_RectangleArea.csproj" />
+    <ProjectReference Include="..\Lib_0344_ReverseString\Lib_0344_ReverseString.csproj" />
+    <ProjectReference Include="..\Lib_0345_ReverseVowelsOfAString\Lib_0345_ReverseVowelsOfAString.csproj" />
     <ProjectReference Include="..\Lib_0367_ValidPerfectSquare\Lib_0367_ValidPerfectSquare.csproj" />
     <ProjectReference Include="..\Lib_0836_RectangleOverlap\Lib_0836_RectangleOverlap.csproj" />
   </ItemGroup>

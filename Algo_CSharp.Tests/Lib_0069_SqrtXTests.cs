@@ -38,7 +38,7 @@ namespace Algo_CSharp.Tests
     {
         public IEnumerator<object[]> GetEnumerator()
         {
-            for (int i = 0; i < 2000; i++)
+            for (int i = 0; i < 20; i++)
             {
                 yield return new object[] { i, (int)Math.Sqrt(i) };
                // yield return new object[] { 0, 0 };
