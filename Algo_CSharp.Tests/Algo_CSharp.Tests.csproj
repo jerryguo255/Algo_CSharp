@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Lib_0021_MergeTwoSortedLists\Lib_0021_MergeTwoSortedLists.csproj" />
     <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
     <ProjectReference Include="..\Lib_0223_RectangleArea\Lib_0223_RectangleArea.csproj" />
     <ProjectReference Include="..\Lib_0283_MoveZeroes\Lib_0283_MoveZeroes.csproj" />

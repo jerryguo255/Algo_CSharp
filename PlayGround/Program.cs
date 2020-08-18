@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Lib_0283_MoveZeroes;
+using Lib_0021_MergeTwoSortedLists;
 
 namespace PlayGround
 {
@@ -9,20 +9,38 @@ namespace PlayGround
     {
         static void Main(string[] args)
         {
-            var s = new Solution();
-            var nums1 = new[] { 1, 2, 0, 3, 0, 4, 0,5,6 };
 
-            var nums2 = new[] {0, 1, 0, 3, 12};
-            s.MoveZeroes(nums1);
 
-            foreach (var VARIABLE in nums1)
-            {
-                Console.Write(VARIABLE+",");
-            }
-           
+            var _solution = new Solution();
+
+
+
+            // _solution.InitWithIntArray(new[] {0, 1, 4, 5, 22, 55, 56, 67, 77, 79});
+
+
+            //var output1 = _solution.MergeTwoLists(
+            //    _solution.InitWithIntArray(new[] { 0, 1, 22, 55, 56, 67, 79 }),
+            //     _solution.InitWithIntArray(new[] { 4, 5, 77 })
+            //     );
+
+            //var output2 = _solution.MergeTwoLists(
+            //   _solution.InitWithIntArray(new[] { 4, 5, 66 }),
+            //   _solution.InitWithIntArray(new[] { 0, 1, 22, 55, 56, 67, 79 })
+            //   );
+
+            var output3 = _solution.MergeTwoLists(
+                _solution.InitWithIntArray(new[] { 1 }),
+                _solution.InitWithIntArray(new[] { 2 })
+            );
+
+            _solution.PrintListNode(output3);
+
+
             Console.ReadLine();
         }
 
-       
+
     }
+
+   
 }
