@@ -11,6 +11,9 @@ namespace Lib_0206_ReverseLinkedList
     /// 递归尾部的循环次数
     /// 返回递归头部的循环次数以及来回总次数
     /// 用循环次数控制并保留最后的数据
+    /// 
+    /// #Recursive version
+    /// 
     /// </summary>
     public class Solution
     {
