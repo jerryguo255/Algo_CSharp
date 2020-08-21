@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_1290_ConvertBinaryNumbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0206_ReverseLinkedList", "Lib_0206_ReverseLinkedList\Lib_0206_ReverseLinkedList.csproj", "{02EAC64B-A8F6-425A-9AAD-C27A770239C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0876_MiddleOfTheLinkedList", "Lib_0876_MiddleOfTheLinkedList\Lib_0876_MiddleOfTheLinkedList.csproj", "{6A7D6611-118E-4DD3-8FA3-CE3DF3485936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0876_MiddleOfTheLinkedList", "Lib_0876_MiddleOfTheLinkedList\Lib_0876_MiddleOfTheLinkedList.csproj", "{6A7D6611-118E-4DD3-8FA3-CE3DF3485936}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0203_RemoveLinkedListElements", "Lib_0203_RemoveLinkedListElements\Lib_0203_RemoveLinkedListElements.csproj", "{03B8112B-2E1A-44EB-8714-EBD64B8411BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{C9D7BD93-AF3E-435C-BDDC-D72206BB2F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0509_FibonacciNumber", "Lib_0509_FibonacciNumber\Lib_0509_FibonacciNumber.csproj", "{D8E14B33-F69B-44EC-8409-A6A27D51F67B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,14 @@ Global
 		{6A7D6611-118E-4DD3-8FA3-CE3DF3485936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A7D6611-118E-4DD3-8FA3-CE3DF3485936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A7D6611-118E-4DD3-8FA3-CE3DF3485936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B8112B-2E1A-44EB-8714-EBD64B8411BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B8112B-2E1A-44EB-8714-EBD64B8411BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B8112B-2E1A-44EB-8714-EBD64B8411BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B8112B-2E1A-44EB-8714-EBD64B8411BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E14B33-F69B-44EC-8409-A6A27D51F67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E14B33-F69B-44EC-8409-A6A27D51F67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E14B33-F69B-44EC-8409-A6A27D51F67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E14B33-F69B-44EC-8409-A6A27D51F67B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +124,8 @@ Global
 		{41097C2E-BBFB-42F4-A3B5-9C18471F86D2} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
 		{02EAC64B-A8F6-425A-9AAD-C27A770239C8} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
 		{6A7D6611-118E-4DD3-8FA3-CE3DF3485936} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
+		{03B8112B-2E1A-44EB-8714-EBD64B8411BF} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
+		{D8E14B33-F69B-44EC-8409-A6A27D51F67B} = {C9D7BD93-AF3E-435C-BDDC-D72206BB2F8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B23AF06-815C-4098-BFBD-26622C4B6E59}

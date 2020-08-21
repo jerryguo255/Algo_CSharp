@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_0223_RectangleArea.Tests\Lib_0223_RectangleArea.Tests.csproj" />
+    <ProjectReference Include="..\Lib_0021_MergeTwoSortedLists\Lib_0021_MergeTwoSortedLists.csproj" />
   </ItemGroup>
 
 </Project>

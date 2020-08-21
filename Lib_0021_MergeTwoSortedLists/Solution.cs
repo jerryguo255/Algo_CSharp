@@ -108,14 +108,22 @@ namespace Lib_0021_MergeTwoSortedLists
 
         public ListNode InitWithIntArray(int[] numbers)
         {
-            var l1 = new ListNode { val = numbers[0] };
-            var dummyNode = l1;
-            for (var i = 1; i < numbers.Length; i++)
+            if (numbers !=null)
             {
-                dummyNode.next = new ListNode(numbers[i]);
-                dummyNode = dummyNode.next;
+                var l1 = new ListNode { val = numbers[0] };
+                var dummyNode = l1;
+                for (var i = 1; i < numbers.Length; i++)
+                {
+                    dummyNode.next = new ListNode(numbers[i]);
+                    dummyNode = dummyNode.next;
+                }
+                return l1;
             }
-            return l1;
+           
+                return null;
+           
+           
+          
         }
 
 
@@ -123,44 +131,56 @@ namespace Lib_0021_MergeTwoSortedLists
 
         public void PrintListNode(ListNode listNode)
         {
-
-            var dummy = listNode;
-
-            //if only one node
-            if (dummy.next == null)
-                Console.WriteLine(dummy.val);
-            while (dummy.next != null)
+            if (listNode!=null)
             {
-                Console.WriteLine(dummy.val);
-                dummy = dummy.next;
+                var dummy = listNode;
+
+                //if only one node
                 if (dummy.next == null)
                     Console.WriteLine(dummy.val);
+                while (dummy.next != null)
+                {
+                    Console.WriteLine(dummy.val);
+                    dummy = dummy.next;
+                    if (dummy.next == null)
+                        Console.WriteLine(dummy.val);
+                }
             }
+            else {
+                Console.WriteLine("Empty");
+            }
+           
         }
         public int[] OutputArray(ListNode l)
         {
-            var count = 1;
-            var dummyNode = l;
-            while (dummyNode.next != null)
+            if (l != null)
             {
-                dummyNode = dummyNode.next;
-                count++;
-            }
+                var count = 1;
+                var dummyNode = l;
+                while (dummyNode.next != null)
+                {
+                    dummyNode = dummyNode.next;
+                    count++;
+                }
 
-            int[] output = new int[count];
+                int[] output = new int[count];
 
-            dummyNode = l;
-            var index = 0;
-            //output[index] = dummyNode.val;
-            while (dummyNode.next != null)
-            {
-                output[index] = dummyNode.val;
-                index++;
-                dummyNode = dummyNode.next;
-                if (dummyNode.next == null)
+                dummyNode = l;
+                var index = 0;
+                //output[index] = dummyNode.val;
+                while (dummyNode.next != null)
+                {
                     output[index] = dummyNode.val;
+                    index++;
+                    dummyNode = dummyNode.next;
+                    if (dummyNode.next == null)
+                        output[index] = dummyNode.val;
+                }
+
+                return output;
             }
-            return output;
+            else return null;
+
         }
     }
     public class ListNode
