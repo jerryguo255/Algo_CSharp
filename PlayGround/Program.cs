@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ToolSolutin = Lib_0021_MergeTwoSortedLists.Solution;
-using TargetSolution = Lib_0092_ReverseLinkedList_II.Solution;
+using Lib_1381_DesignAStackWithIncrementOperation;
+
 
 
 namespace PlayGround
@@ -11,13 +11,25 @@ namespace PlayGround
     {
         static void Main(string[] args)
         {
-            var ts = new TargetSolution();
-            var tools = new ToolSolutin();
-            var node = tools.InitWithIntArray(new[] { 1, 2, 3, 4, 5 });//154356
-            var result = ts.ReverseBetween(node, 1, 5);
+            var s = new CustomStack(3);
+            s.Push(1);
+            s.Push(2);
 
-            tools.PrintListNode(result);
+            s.Push(3);
 
+            s.Increment(5,20);
+
+            var vals = new int[s.MaxSize];
+            for (int i = 0; i < s.MaxSize; i++)
+            {
+                vals[i] = s.Pop();
+            }
+
+            foreach (var i in vals.Reverse()) Console.WriteLine(i);
+          
+
+
+            Console.ReadLine();
         }
 
 

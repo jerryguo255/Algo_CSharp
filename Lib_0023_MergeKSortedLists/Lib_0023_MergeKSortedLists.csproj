@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_1381_DesignAStackWithIncrementOperation\Lib_1381_DesignAStackWithIncrementOperation.csproj" />
+    <ProjectReference Include="..\Lib_0021_MergeTwoSortedLists\Lib_0021_MergeTwoSortedLists.csproj" />
   </ItemGroup>
 
 </Project>
