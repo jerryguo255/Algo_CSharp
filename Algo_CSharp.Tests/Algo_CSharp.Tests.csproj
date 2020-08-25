@@ -19,6 +19,7 @@
     <ProjectReference Include="..\Lib_0023_MergeKSortedLists\Lib_0023_MergeKSortedLists.csproj" />
     <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
     <ProjectReference Include="..\Lib_0092_ReverseLinkedList_II\Lib_0092_ReverseLinkedList_II.csproj" />
+    <ProjectReference Include="..\Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj" />
     <ProjectReference Include="..\Lib_0203_RemoveLinkedListElements\Lib_0203_RemoveLinkedListElements.csproj" />
     <ProjectReference Include="..\Lib_0206_ReverseLinkedList\Lib_0206_ReverseLinkedList.csproj" />
     <ProjectReference Include="..\Lib_0223_RectangleArea\Lib_0223_RectangleArea.csproj" />

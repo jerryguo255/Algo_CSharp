@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0023_MergeKSortedLists"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{809A1135-B500-429F-BF37-64ED1BA65518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_1381_DesignAStackWithIncrementOperation", "Lib_1381_DesignAStackWithIncrementOperation\Lib_1381_DesignAStackWithIncrementOperation.csproj", "{F77D2444-978F-4A63-99DC-06889091018B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_1381_DesignAStackWithIncrementOperation", "Lib_1381_DesignAStackWithIncrementOperation\Lib_1381_DesignAStackWithIncrementOperation.csproj", "{F77D2444-978F-4A63-99DC-06889091018B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0150_EvaluateReversePolishNotation", "Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj", "{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{F77D2444-978F-4A63-99DC-06889091018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77D2444-978F-4A63-99DC-06889091018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77D2444-978F-4A63-99DC-06889091018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{ACE81F91-7AD7-40FA-804C-85D8190E9711} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
 		{2BD70A3E-6963-4B73-A9E2-5A3A983475A5} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
 		{F77D2444-978F-4A63-99DC-06889091018B} = {809A1135-B500-429F-BF37-64ED1BA65518}
+		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D} = {809A1135-B500-429F-BF37-64ED1BA65518}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B23AF06-815C-4098-BFBD-26622C4B6E59}

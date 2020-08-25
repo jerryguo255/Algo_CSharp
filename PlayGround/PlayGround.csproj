@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_1381_DesignAStackWithIncrementOperation\Lib_1381_DesignAStackWithIncrementOperation.csproj" />
+    <ProjectReference Include="..\Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj" />
   </ItemGroup>
 
 </Project>
