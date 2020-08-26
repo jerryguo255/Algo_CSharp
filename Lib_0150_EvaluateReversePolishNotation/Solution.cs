@@ -59,9 +59,6 @@ namespace Lib_0150_EvaluateReversePolishNotation
             _vals = new string[maxSize];
         }
 
-        
-       
-
         public void Push(string x)
         {
             if (count == MaxSize) return;

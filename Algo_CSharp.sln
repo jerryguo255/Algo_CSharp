@@ -53,6 +53,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_1381_DesignAStackWithIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0150_EvaluateReversePolishNotation", "Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj", "{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{ED165BB3-A80D-4A52-9001-2773E66F84C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0622_DesignCircularQueue", "Lib_0622_DesignCircularQueue\Lib_0622_DesignCircularQueue.csproj", "{DA03E7D3-5312-430C-9B39-85DC8596C989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +143,10 @@ Global
 		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA03E7D3-5312-430C-9B39-85DC8596C989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA03E7D3-5312-430C-9B39-85DC8596C989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA03E7D3-5312-430C-9B39-85DC8596C989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA03E7D3-5312-430C-9B39-85DC8596C989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +164,7 @@ Global
 		{2BD70A3E-6963-4B73-A9E2-5A3A983475A5} = {1BA23AFA-EA7E-463F-8E9C-AE303454E383}
 		{F77D2444-978F-4A63-99DC-06889091018B} = {809A1135-B500-429F-BF37-64ED1BA65518}
 		{84C8D212-70F3-42D9-8FD3-4B44C845BF1D} = {809A1135-B500-429F-BF37-64ED1BA65518}
+		{DA03E7D3-5312-430C-9B39-85DC8596C989} = {ED165BB3-A80D-4A52-9001-2773E66F84C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B23AF06-815C-4098-BFBD-26622C4B6E59}

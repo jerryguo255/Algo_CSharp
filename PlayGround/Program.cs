@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Lib_0150_EvaluateReversePolishNotation;
+using Lib_0622_DesignCircularQueue;
 
 
 namespace PlayGround
@@ -10,13 +10,29 @@ namespace PlayGround
     {
         static void Main(string[] args)
         {
-          
-           var ss = new[] {"2", "1", "+", "3", "*"};
 
-           var s = new Solution();
-           
+            int[] enQueueItems =  {1, 2, 3, 4, 5};
+            int deQueueTimes = 4;
+            int[] enQueueItemsSecondly =  {6, 7, 8};
+            var cq = new MyCircularQueue(enQueueItems.Length);
+            foreach (var i in enQueueItems)
+            {
+                cq.EnQueue(i);
+            }
 
-           Console.WriteLine(s.EvalRPN(ss));
+            for (int i = 0; i < deQueueTimes; i++)
+            {
+                cq.DeQueue();
+            }
+
+            foreach (var i in enQueueItemsSecondly)
+            {
+                cq.EnQueue(i);
+            }
+
+            Console.WriteLine(cq.Front());
+            Console.WriteLine(cq.Rear());
+
             Console.ReadLine();
         }
 

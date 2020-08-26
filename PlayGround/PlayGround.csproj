@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj" />
+    <ProjectReference Include="..\Lib_0622_DesignCircularQueue\Lib_0622_DesignCircularQueue.csproj" />
   </ItemGroup>
 
 </Project>

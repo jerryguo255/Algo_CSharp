@@ -28,6 +28,7 @@
     <ProjectReference Include="..\Lib_0345_ReverseVowelsOfAString\Lib_0345_ReverseVowelsOfAString.csproj" />
     <ProjectReference Include="..\Lib_0367_ValidPerfectSquare\Lib_0367_ValidPerfectSquare.csproj" />
     <ProjectReference Include="..\Lib_0509_FibonacciNumber\Lib_0509_FibonacciNumber.csproj" />
+    <ProjectReference Include="..\Lib_0622_DesignCircularQueue\Lib_0622_DesignCircularQueue.csproj" />
     <ProjectReference Include="..\Lib_0836_RectangleOverlap\Lib_0836_RectangleOverlap.csproj" />
     <ProjectReference Include="..\Lib_0876_MiddleOfTheLinkedList\Lib_0876_MiddleOfTheLinkedList.csproj" />
     <ProjectReference Include="..\Lib_1290_ConvertBinaryNumberInALinkedListToInteger\Lib_1290_ConvertBinaryNumberInALinkedListToInteger.csproj" />
