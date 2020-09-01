@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Algo_CSharp.Tests
 {
-    public class Lib_1381_designAStackWithIncrementOperationTests
+    public class Lib_1381_DesignAStackWithIncrementOperationTests
     {
 
         [Theory]

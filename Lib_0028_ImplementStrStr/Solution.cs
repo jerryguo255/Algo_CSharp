@@ -17,7 +17,7 @@ namespace Lib_0028_ImplementStrStr
                 if (haystack[i] == needle[0])
                 {
                     //already compared first char for main string
-                    resultIndex= i;
+                    resultIndex= i;  
                     firstSameCharIndex = i+1;
 
                     if (needle.Length==1)

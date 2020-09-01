@@ -20,6 +20,7 @@
     <ProjectReference Include="..\Lib_0028_ImplementStrStr\Lib_0028_ImplementStrStr.csproj" />
     <ProjectReference Include="..\Lib_0069_SqrtX\Lib_0069_SqrtX.csproj" />
     <ProjectReference Include="..\Lib_0092_ReverseLinkedList_II\Lib_0092_ReverseLinkedList_II.csproj" />
+    <ProjectReference Include="..\Lib_0108_ConvertSortedArrayToBST\Lib_0108_ConvertSortedArrayToBST.csproj" />
     <ProjectReference Include="..\Lib_0150_EvaluateReversePolishNotation\Lib_0150_EvaluateReversePolishNotation.csproj" />
     <ProjectReference Include="..\Lib_0203_RemoveLinkedListElements\Lib_0203_RemoveLinkedListElements.csproj" />
     <ProjectReference Include="..\Lib_0206_ReverseLinkedList\Lib_0206_ReverseLinkedList.csproj" />
@@ -32,6 +33,7 @@
     <ProjectReference Include="..\Lib_0622_DesignCircularQueue\Lib_0622_DesignCircularQueue.csproj" />
     <ProjectReference Include="..\Lib_0836_RectangleOverlap\Lib_0836_RectangleOverlap.csproj" />
     <ProjectReference Include="..\Lib_0876_MiddleOfTheLinkedList\Lib_0876_MiddleOfTheLinkedList.csproj" />
+    <ProjectReference Include="..\Lib_0938_RangeSumOfBST\Lib_0938_RangeSumOfBST.csproj" />
     <ProjectReference Include="..\Lib_1290_ConvertBinaryNumberInALinkedListToInteger\Lib_1290_ConvertBinaryNumberInALinkedListToInteger.csproj" />
     <ProjectReference Include="..\Lib_1381_DesignAStackWithIncrementOperation\Lib_1381_DesignAStackWithIncrementOperation.csproj" />
   </ItemGroup>
