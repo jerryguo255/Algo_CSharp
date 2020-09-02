@@ -110,9 +110,8 @@ namespace Lib_0108_ConvertSortedArrayToBST
         
         public int?[] ConvertBSTToLevelOrderArray(TreeNode tn)
         {
-            List<int?> result = new List<int?>();
-            result.Add(tn.val);
-            Queue<TreeNode> q = new Queue<TreeNode>();
+            var result = new List<int?> {tn.val};
+            var q = new Queue<TreeNode>();
 
 
             q.Enqueue(tn);
@@ -134,19 +133,18 @@ namespace Lib_0108_ConvertSortedArrayToBST
                    
                 }
 
-                if (t.right ==null)
+                
+                if (t.right == null)
                 {
                     result.Add(null);
                 }
                 else
                 {
-
                     result.Add(t.right.val);
                     if (t.right.left != null || t.right.right != null)
                     {
                         q.Enqueue(t.right);
                     }
-                    
                 }
             }
 
@@ -154,7 +152,7 @@ namespace Lib_0108_ConvertSortedArrayToBST
 
             //Console.WriteLine(tn.val);
           // var ress = new int?[]{2,3,null};
-            int?[] res = result.ToArray();
+            var res = result.ToArray();
             return res;
 
         }
@@ -192,5 +190,56 @@ namespace Lib_0108_ConvertSortedArrayToBST
 
             return notNullSortArr;
         }
+
+        /// <summary>
+        /// Normal Binary Tree
+        /// </summary>
+        /// <param name="levelOrderArray"></param>
+        /// <returns></returns>
+        public TreeNode GetBinaryTreeWithLevelOrderArray(int?[] levelOrderArray)
+        {
+            Queue<TreeNode> treeQueue = new Queue<TreeNode>();
+
+            var valueQueue = new Queue<int?>();
+
+            foreach (var t in levelOrderArray)
+            {
+                valueQueue.Enqueue(t);
+            }
+
+            var root = new TreeNode(valueQueue.Dequeue().Value);
+            var pointer = root;
+
+
+            while (valueQueue.Count !=0)
+            {
+                var value = valueQueue.Dequeue();
+                if (value!=null)
+                {
+                    pointer.left = new TreeNode(value.Value);
+                    treeQueue.Enqueue(pointer.left);
+                }
+               
+
+               
+
+
+                if (valueQueue.Count !=0)
+                {
+                    value = valueQueue.Dequeue();
+                    if (value !=null)
+                    {
+                        pointer.right = new TreeNode(value.Value);
+                        treeQueue.Enqueue(pointer.right);
+                    }
+                    
+
+                }
+                  pointer = treeQueue.Dequeue();
+            }
+            
+            return root;
+        }
+
     }
 }

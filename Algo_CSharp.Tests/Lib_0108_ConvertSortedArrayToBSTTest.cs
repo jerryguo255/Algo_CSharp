@@ -12,7 +12,8 @@ namespace Algo_CSharp.Tests
 
         [Theory]
         [ClassData(typeof(SortedArrayToBSTTestData))]
-        public void SortedArrayToBSTTest(int[] sortedArray, int?[] expected)
+        public void SortedArrayToBSTTest(int[] sortedArray, 
+            int?[] expected)
         {
             var s = new Solution();
 
@@ -46,7 +47,8 @@ namespace Algo_CSharp.Tests
 
         [Theory]
         [ClassData(typeof(ConvertBSTToLevelOrderArrayTestData))]
-        public void ConvertBSTToLevelOrderArrayTest(int[] BSTArray, int?[] expected)
+        public void ConvertBSTToLevelOrderArrayTest(int[] BSTArray,
+            int?[] expected)
         {
             var s = new Solution();
             var t = s.SortedArrayToBST(BSTArray);
@@ -83,9 +85,10 @@ namespace Algo_CSharp.Tests
 
 
         [Theory]
-        [ClassData(typeof(ConvertLevelOrderArrayToATreeNodeTestData))]
-        public void ConvertLevelOrderArrayToATreeNodeTest(int?[] levelOrderArray ,
-            int[]sortedArray)
+        [ClassData(typeof(
+            ConvertLevelOrderArrayToATreeNodeTestData))]
+        public void ConvertLevelOrderArrayToATreeNodeTest(
+            int?[] levelOrderArray , int[]sortedArray)
         {
             var s = new Solution();
             var t = s.ConvertLevelOrderArrayToATreeNode(levelOrderArray);
@@ -121,18 +124,14 @@ namespace Algo_CSharp.Tests
 
 
 
-
-
-
-        //===
-
         [Theory]
         [ClassData(typeof(ConvertBSTToSortedArrayTestData))]
-        public void ConvertBSTToSortedArrayTest( int?[] levelOrderArray, 
-            int[] sortedArray)
+        public void ConvertBSTToSortedArrayTest( 
+            int?[] levelOrderArray,  int[] sortedArray)
         {
             var s = new Solution();
-            var t = s.ConvertLevelOrderArrayToATreeNode(levelOrderArray);
+            var t = s.ConvertLevelOrderArrayToATreeNode(
+                levelOrderArray);
             s.ConvertBSTToSortedArray(t);
             
             Assert.Equal(sortedArray,
@@ -140,7 +139,8 @@ namespace Algo_CSharp.Tests
             );
 
         }
-        public class ConvertBSTToSortedArrayTestData : IEnumerable<object[]>
+        public class ConvertBSTToSortedArrayTestData
+           :IEnumerable<object[]>
         {
             public IEnumerator<object[]> GetEnumerator()
             {
@@ -152,8 +152,16 @@ namespace Algo_CSharp.Tests
                 };
                 yield return new object[]
                 {
-                    new int?[]{ 112,56,667,int.MinValue,78,334,int.MaxValue},
-                    new []{ int.MinValue, 56, 78, 112, 334, 667,int.MaxValue}
+                    new int?[]
+                    {
+                        112,56,667,int.MinValue,
+                        78,334,int.MaxValue
+                    },
+                    new []
+                    {
+                        int.MinValue, 56, 78, 112,
+                        334, 667,int.MaxValue
+                    }
                 };
             }
 
@@ -161,6 +169,38 @@ namespace Algo_CSharp.Tests
             {
                 return GetEnumerator();
             }
+        }
+
+
+
+        [Theory]
+        [ClassData(typeof(
+            GetBinaryTreeWithLevelOrderArrayTestData))]
+
+        public void GetBinaryTreeWithLevelOrderArrayTest(
+            int?[] levelOrderArray
+            )
+        {
+
+
+        }
+
+    }
+
+    public class GetBinaryTreeWithLevelOrderArrayTestData
+    : IEnumerable<object[]>
+    {
+        public IEnumerator<object[]> GetEnumerator()
+        {
+            yield return new object[]
+            {
+
+            };
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
