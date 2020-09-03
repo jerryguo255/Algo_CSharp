@@ -181,8 +181,12 @@ namespace Algo_CSharp.Tests
             int?[] levelOrderArray
             )
         {
+            var tos = new Solution();
+            var t = tos.GetABinaryTreeWithLevelOrderArray(
+                levelOrderArray);
 
-
+            var actural = tos.ConvertBSTToLevelOrderArray(t);
+            Assert.Equal(levelOrderArray, actural);
         }
 
     }
@@ -194,8 +198,13 @@ namespace Algo_CSharp.Tests
         {
             yield return new object[]
             {
-
+                new int?[] { 2, 1, 3, null, 4, null, 7 }
             };
+            yield return new object[]
+            {
+                new int?[] { 1, 3,  2, null, 5, null, 8, null,9 }
+            };
+            // 
         }
 
         IEnumerator IEnumerable.GetEnumerator()

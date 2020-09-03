@@ -121,6 +121,10 @@ namespace Lib_0108_ConvertSortedArrayToBST
                 var t = q.Dequeue();
                 if (t.left ==null)
                 {
+                    if (t.right ==null && q.Count==0)
+                    {
+                        break;
+                    }
                     result.Add(null);
                 }
                 else
@@ -196,8 +200,12 @@ namespace Lib_0108_ConvertSortedArrayToBST
         /// </summary>
         /// <param name="levelOrderArray"></param>
         /// <returns></returns>
-        public TreeNode GetBinaryTreeWithLevelOrderArray(int?[] levelOrderArray)
+        public TreeNode GetABinaryTreeWithLevelOrderArray(int?[] levelOrderArray)
         {
+            if (levelOrderArray[0]==null)
+            {
+                return null;
+            }
             Queue<TreeNode> treeQueue = new Queue<TreeNode>();
 
             var valueQueue = new Queue<int?>();
@@ -219,10 +227,6 @@ namespace Lib_0108_ConvertSortedArrayToBST
                     pointer.left = new TreeNode(value.Value);
                     treeQueue.Enqueue(pointer.left);
                 }
-               
-
-               
-
 
                 if (valueQueue.Count !=0)
                 {
