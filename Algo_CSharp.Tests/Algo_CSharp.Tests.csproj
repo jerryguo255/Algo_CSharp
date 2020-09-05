@@ -32,6 +32,7 @@
     <ProjectReference Include="..\Lib_0509_FibonacciNumber\Lib_0509_FibonacciNumber.csproj" />
     <ProjectReference Include="..\Lib_0617_MergeTwoBinaryTrees\Lib_0617_MergeTwoBinaryTrees.csproj" />
     <ProjectReference Include="..\Lib_0622_DesignCircularQueue\Lib_0622_DesignCircularQueue.csproj" />
+    <ProjectReference Include="..\Lib_0700_SearchInABinarySearchTree\Lib_0700_SearchInABinarySearchTree.csproj" />
     <ProjectReference Include="..\Lib_0836_RectangleOverlap\Lib_0836_RectangleOverlap.csproj" />
     <ProjectReference Include="..\Lib_0876_MiddleOfTheLinkedList\Lib_0876_MiddleOfTheLinkedList.csproj" />
     <ProjectReference Include="..\Lib_0938_RangeSumOfBST\Lib_0938_RangeSumOfBST.csproj" />
