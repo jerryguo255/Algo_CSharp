@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using Lib_0108_ConvertSortedArrayToBST;
-using TargetSolution = Lib_0700_SearchInABinarySearchTree.Solution;
+using TargetSolution = Lib_0145_BinaryTreePostorderTraversal.Solution;
 using ToolSolution = Lib_0108_ConvertSortedArrayToBST.Solution;
 
 namespace PlayGround
@@ -18,14 +18,13 @@ namespace PlayGround
             var tos = new ToolSolution();
             var tas = new TargetSolution();
 
-         var root=   tos.GetABinaryTreeWithLevelOrderArray(new int?[] {4, 2, 7, 1, 3});
 
-         var result= tas.SearchBST(root,2);
-        var rarr= tos.ConvertBSTToLevelOrderArray(result);
+            var t = tos.GetABinaryTreeWithLevelOrderArray(new int?[] { 1, 2, 3, 4, 5, 6, 7 });
+            var actual = tas.PostorderTraversal(t);
 
 
             Console.ReadLine();
-                
+
         }
 
 

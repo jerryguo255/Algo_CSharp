@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Threading;
-using Lib_0069_SqrtX;
+using Lib_0509_FibonacciNumber;
 namespace Performance_Test
 {
     class Program
@@ -10,27 +10,55 @@ namespace Performance_Test
         {
             var s = new Solution();
             TimeSpan ts;
-
             var stopWatch = new Stopwatch();
+
+
+            #region fib result
+
             stopWatch.Start();
             ts = stopWatch.Elapsed;
 
-            Console.WriteLine($"Start Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds / 10:00}");
+            Console.WriteLine($"Start Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds :0000}");
             //Thread.Sleep(2000);
-            for (int i = 0; i < 50_000; i++)
-            {
-                s.MySqrt(int.MaxValue);
-            }
-            Console.WriteLine(s.MySqrt(int.MaxValue));
+
+            s.Fib(1000);
            
+
             stopWatch.Stop();
             ts = stopWatch.Elapsed;
-            Console.WriteLine($"End Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds / 10:00}");
+            Console.WriteLine($"End Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds :0000}");
+
+
+
+            #endregion
+
+            //#region fib Recursion result
+            //stopWatch.Reset();
+            //stopWatch.Start();
+            //ts = stopWatch.Elapsed;
+
+            //Console.WriteLine($"Start Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds / 10:00}");
+            ////Thread.Sleep(2000);
+            //for (int i = 0; i < 50; i++)
+            //{
+            //    s.FibRecursion(35);
+            //}
+
+            //stopWatch.Stop();
+            //ts = stopWatch.Elapsed;
+            //Console.WriteLine($"End Time :{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}:{ts.Milliseconds / 10:00}");
+
+
+            //#endregion
+
 
             Console.ReadLine();
 
         }
-
+        static unsafe void DisplaySizeOf<T>() where T : unmanaged
+        {
+            Console.WriteLine($"Size of {typeof(T)} is {sizeof(T)}");
+        }
 
 
     }

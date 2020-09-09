@@ -1,13 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Lib_0108_ConvertSortedArrayToBST\Lib_0108_ConvertSortedArrayToBST.csproj" />
-    <ProjectReference Include="..\Lib_0145_BinaryTreePostorderTraversal\Lib_0145_BinaryTreePostorderTraversal.csproj" />
   </ItemGroup>
 
 </Project>

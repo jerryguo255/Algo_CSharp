@@ -1,14 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Lib_0509_FibonacciNumber
 {
     public class Solution
     {
-        public Int64 Fib(Int64 n)
+        public long Fib(long n)
         {
-            Int64 f2 = 1;
-            Int64 f3 = 2;
-            Int64 result = 0;
+            long f2 = 1;
+            long f3 = 2;
+            long result = 0;
             switch (n)
             {
                 case 0:
@@ -20,8 +21,8 @@ namespace Lib_0509_FibonacciNumber
                 case 3:
                     return f3;
             }
-           
-            for (int i = 3; i < n; i++)//6  : 3  , 4  , 5
+
+            for (long i = 3; i < n; i++)//6  : 3  , 4  , 5
             {
                 result = f2 + f3;   // 3 = 1 + 2
                 f2 = f3;            // f2 = 2;
@@ -30,9 +31,17 @@ namespace Lib_0509_FibonacciNumber
 
             return result;
         }
+        long[] memo = new long[1000];
 
-        public int FibRecursion(int n)
+        public long FibRecursion(long n)
         {
+
+            if (memo[n] != 0)
+            {
+                return memo[n];
+            }
+
+
             switch (n)
             {
                 case 0:
@@ -41,9 +50,11 @@ namespace Lib_0509_FibonacciNumber
                 case 2:
                     return 1;
                 default:
-                {
-                    return FibRecursion(n - 1) + FibRecursion(n - 2);
-                }
+                    {
+                        memo[n] = FibRecursion(n - 1) + FibRecursion(n - 2);
+
+                        return memo[n];
+                    }
             }
         }
 

@@ -69,7 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0108_ConvertSortedArray
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0617_MergeTwoBinaryTrees", "Lib_0617_MergeTwoBinaryTrees\Lib_0617_MergeTwoBinaryTrees.csproj", "{3EF16983-69B4-46B0-89DF-93F10C45C9C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0700_SearchInABinarySearchTree", "Lib_0700_SearchInABinarySearchTree\Lib_0700_SearchInABinarySearchTree.csproj", "{7DACA50C-F8F4-4D9A-89D4-D253013D59E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0700_SearchInABinarySearchTree", "Lib_0700_SearchInABinarySearchTree\Lib_0700_SearchInABinarySearchTree.csproj", "{7DACA50C-F8F4-4D9A-89D4-D253013D59E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0144_BinaryTreePreorderTraversal", "Lib_0144_BinaryTreePreorderTraversal\Lib_0144_BinaryTreePreorderTraversal.csproj", "{31F05AE9-F11C-4845-B08D-49E2C0ED17A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0094_BinaryTreeInorderTraversal", "Lib_0094_BinaryTreeInorderTraversal\Lib_0094_BinaryTreeInorderTraversal.csproj", "{5CFEC7FF-8983-4A64-BC34-B0178A7224A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0145_BinaryTreePostorderTraversal", "Lib_0145_BinaryTreePostorderTraversal\Lib_0145_BinaryTreePostorderTraversal.csproj", "{8F02969A-7DC9-483C-B6D1-DF853F189EEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +187,18 @@ Global
 		{7DACA50C-F8F4-4D9A-89D4-D253013D59E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DACA50C-F8F4-4D9A-89D4-D253013D59E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DACA50C-F8F4-4D9A-89D4-D253013D59E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F05AE9-F11C-4845-B08D-49E2C0ED17A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F05AE9-F11C-4845-B08D-49E2C0ED17A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F05AE9-F11C-4845-B08D-49E2C0ED17A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F05AE9-F11C-4845-B08D-49E2C0ED17A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFEC7FF-8983-4A64-BC34-B0178A7224A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFEC7FF-8983-4A64-BC34-B0178A7224A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFEC7FF-8983-4A64-BC34-B0178A7224A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFEC7FF-8983-4A64-BC34-B0178A7224A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F02969A-7DC9-483C-B6D1-DF853F189EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F02969A-7DC9-483C-B6D1-DF853F189EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F02969A-7DC9-483C-B6D1-DF853F189EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F02969A-7DC9-483C-B6D1-DF853F189EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +222,9 @@ Global
 		{5753F4AD-5380-4D42-A305-D68739A5F530} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 		{3EF16983-69B4-46B0-89DF-93F10C45C9C8} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 		{7DACA50C-F8F4-4D9A-89D4-D253013D59E5} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
+		{31F05AE9-F11C-4845-B08D-49E2C0ED17A4} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
+		{5CFEC7FF-8983-4A64-BC34-B0178A7224A9} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
+		{8F02969A-7DC9-483C-B6D1-DF853F189EEC} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B23AF06-815C-4098-BFBD-26622C4B6E59}
