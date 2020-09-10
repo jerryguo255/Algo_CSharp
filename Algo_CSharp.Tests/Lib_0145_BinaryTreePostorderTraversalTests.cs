@@ -30,7 +30,7 @@ namespace Algo_CSharp.Tests
             yield return new object[]
             {
                 new int?[]{1,2,3,4,5,6,7},
-                new List<int>{4,5,2,1,6,7,3}
+                new List<int>{4,5,2,6,7,3,1}
             };
             yield return new object[]
             {
@@ -41,6 +41,11 @@ namespace Algo_CSharp.Tests
             {
                 new int?[]{1},
                 new List<int>{1}
+            };
+            yield return new object[]
+            {
+                new int?[]{null},
+                null
             };
         }
 
