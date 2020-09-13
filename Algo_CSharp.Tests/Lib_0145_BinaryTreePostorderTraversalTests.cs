@@ -45,7 +45,7 @@ namespace Algo_CSharp.Tests
             yield return new object[]
             {
                 new int?[]{null},
-                null
+                new List<int>()
             };
         }
 
