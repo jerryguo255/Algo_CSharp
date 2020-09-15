@@ -8,7 +8,7 @@ namespace Lib_0102_BinaryTreeLevelOrderTraversal
     {
         public IList<IList<int>> LevelOrder(TreeNode root)
         {
-            if (root ==null)
+            if (root == null)
             {
                 return new List<IList<int>>();
             }
@@ -21,28 +21,25 @@ namespace Lib_0102_BinaryTreeLevelOrderTraversal
             List<int> alList = new List<int>();
 
 
-
             while (stA.Count != 0 || stB.Count != 0)
             { //if it is stA 
                 if (!isStB)
                 {    // stA is not empty
                     if (stA.TryDequeue(out t))
                     {//do something
-                        if (t!=null)
+                        if (t != null)
                         {
                             alList.Add(t.val);
-                        
-                      
-                        //enqueue next level to another Queue stB
-                        stB.Enqueue(t.left);
-                        stB.Enqueue(t.right);
+                            //enqueue next level to another Queue stB
+                            stB.Enqueue(t.left);
+                            stB.Enqueue(t.right);
                         }
                     }
                     else // when stA empty, set flag is stB
                     {
                         isStB = true;
                         result.Add(alList);
-                        alList = new List<int>(); 
+                        alList = new List<int>();
                     }
                 }
                 else // if it is stB
@@ -52,9 +49,8 @@ namespace Lib_0102_BinaryTreeLevelOrderTraversal
                         if (t != null)
                         {
                             alList.Add(t.val);
-                        
-                        stA.Enqueue(t.left);
-                        stA.Enqueue(t.right);
+                            stA.Enqueue(t.left);
+                            stA.Enqueue(t.right);
                         }
                     }
                     else

@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0145_BinaryTreePostorde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0110_BalancedBinaryTree", "Lib_0110_BalancedBinaryTree\Lib_0110_BalancedBinaryTree.csproj", "{BD48EEBA-2EBD-48AA-A1BE-E9836DC7C713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0102_BinaryTreeLevelOrderTraversal", "Lib_0102_BinaryTreeLevelOrderTraversal\Lib_0102_BinaryTreeLevelOrderTraversal.csproj", "{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib_0102_BinaryTreeLevelOrderTraversal", "Lib_0102_BinaryTreeLevelOrderTraversal\Lib_0102_BinaryTreeLevelOrderTraversal.csproj", "{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_0098_ValidateBinarySearchTree", "Lib_0098_ValidateBinarySearchTree\Lib_0098_ValidateBinarySearchTree.csproj", "{1AF7F5B5-7655-4B36-972A-49EBF7A248E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +213,10 @@ Global
 		{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF7F5B5-7655-4B36-972A-49EBF7A248E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF7F5B5-7655-4B36-972A-49EBF7A248E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF7F5B5-7655-4B36-972A-49EBF7A248E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF7F5B5-7655-4B36-972A-49EBF7A248E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -239,6 +245,7 @@ Global
 		{8F02969A-7DC9-483C-B6D1-DF853F189EEC} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 		{BD48EEBA-2EBD-48AA-A1BE-E9836DC7C713} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 		{4353D0B1-6480-4B97-A27B-D1E2AAFB7C02} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
+		{1AF7F5B5-7655-4B36-972A-49EBF7A248E1} = {5C359990-7D12-41B6-9129-A1DA1F550D44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B23AF06-815C-4098-BFBD-26622C4B6E59}
